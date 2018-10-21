@@ -1,0 +1,180 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Realizar um cadastro de um novo ACCOUNTS -\u003e SUPPLIER",
+        "description": "",
+        "id": "fazer-o-cadastro-de-um-novo-accounts--\u003e-supplier;realizar-um-cadastro-de-um-novo-accounts--\u003e-supplier;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1274094723,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que faco login no sistema com o email \"admin@phptravels.com\" e senha \"demoadmin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@phptravels.com",
+                  "offset": 39
+                },
+                {
+                  "val": "demoadmin",
+                  "offset": 70
+                }
+              ],
+              "location": "_Steps.acessarSistema(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5430069539,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "sistema carrega a tela inicial",
+            "match": {
+              "location": "_Steps.aguardaCarregamentoPaginaInicial()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2055169606,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clico no menu \u0027ACCOUNTS\u0027 e no sub menu \u0027SUPPLIERS\u0027",
+            "match": {
+              "location": "_Steps.acessarTelaSuppliers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145966,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sistema carrega a tela de SUPPLIERS MANAGEMENT",
+            "match": {
+              "location": "_Steps.aguardaCarregamentoTelaCadastro()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2717807562,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico no botao ADD",
+            "match": {
+              "location": "_Steps.clico_no_botao_ADD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172075026,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho os campos First Name",
+            "match": {
+              "location": "_Steps.preencho_os_campos_First_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139879168,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Preencho o campo Last name",
+            "match": {
+              "location": "_Steps.preencho_o_campo_Last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318626456,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Preencho o campo email",
+            "match": {
+              "location": "_Steps.preencho_o_campo_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157458998,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Preencho o campo password",
+            "match": {
+              "location": "_Steps.preencho_o_campo_assword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 901622622,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Preencho o campo country",
+            "match": {
+              "location": "_Steps.preencho_o_campo_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2375422789,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clico no botao submit",
+            "match": {
+              "location": "_Steps.clico_no_botao_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163224672,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "conta cadastro efetuado com sucesso",
+            "match": {
+              "location": "_Steps.conta_cadastro_efetuado_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fazer o cadastro de um novo ACCOUNTS -\u003e SUPPLIER",
+    "description": "",
+    "id": "fazer-o-cadastro-de-um-novo-accounts--\u003e-supplier",
+    "keyword": "Feature",
+    "uri": "cadastrar.feature"
+  }
+]
